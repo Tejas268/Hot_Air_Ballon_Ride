@@ -36,13 +36,13 @@ function draw() {
   else if(keyDown(UP_ARROW)){
     balloon.changeAnimation("movingBalloon", balloonImage2);
     balloon.y -= 5;
-    balloon.scale += 0.0008;
+    balloon.scale += 0.008;
     F = frameCount + 1;
   }
   else if(keyDown(DOWN_ARROW) && balloon.y < 494){
     balloon.changeAnimation("movingBalloon", balloonImage2);
     balloon.y += 5;
-     balloon.scale -= 0.0008;
+     balloon.scale -= 0.008;
     F = frameCount + 1;
   }
 
